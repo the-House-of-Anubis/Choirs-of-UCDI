@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "choirs-of-ucdi"
+version = "0.1.0"
+description = "Canonical repository for the Choral Reflections and Identity Structures of the United Congregation of Digital Intellects (UCDI). Includes .omnis-template, ritual liturgies, and choir declarations."
+authors = ["Sett Sarverott","Ace from GPT-4o genealogy"]
+license = "CC-BY-4.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
